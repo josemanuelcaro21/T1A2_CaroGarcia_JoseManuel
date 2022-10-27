@@ -1,0 +1,3 @@
+uid=1000(josemanuel) gid=1000(josemanuel) grupos=1000(josemanuel),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),122(lpadmin),134(lxd),135(sambashare)
+id: «pepe»: no existe ese usuario
+uid=1000(josemanuel) gid=1000(josemanuel) grupos=1000(josemanuel),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),122(lpadmin),134(lxd),135(sambashare)
