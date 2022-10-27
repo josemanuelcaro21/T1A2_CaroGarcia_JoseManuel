@@ -28,7 +28,7 @@ function restar {  #Creamos la funcion restar.
 function dividir {  #Creamos la funcion dividir.
     division=$(($num1 / $num2))
     decimal=$(echo "scale=1; $((num1))/$((num2))" | bc)
-    echo "$division$decimal"
+    echo "$decimal"
     exit
 }
 
@@ -43,8 +43,8 @@ while true; do  #Hacemos el menu con un while por si se introduce algo erroneo v
     echo "Elige una opción para realizar el calculo"
     echo " 1)Sumar
  2)Restar
- 3)Multiplicar
- 4)Dividir
+ 3)Dividir
+ 4)Multiplicar
  5)Salir"
 
     read cuenta
